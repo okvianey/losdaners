@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Los Daners</title>
+  <meta name="description" content="Los Daners" />
+  <meta name="keywords" content="Los Daners Coatzacoalcos" />
+
+  <link href="./img/favicon.png" rel="icon" />
+  <link href="./img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="./vendor/aos/aos.css" rel="stylesheet" />
+  <link href="./vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header header-color d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./img/logo.png" alt="los daners" class="" />
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Regresar</a></li>
+        </ul>
+        <i class="mobile-nav-toggle bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Tu historia y la mia</h1>
+              <p class="mb-0">Somos los daners, estamos en una pausa, y tal vez un día volvamos. Eventualmente, esperamos contarles pronto nuestra historia...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- gallerys Section -->
+    <section id="gallerys" class="gallerys section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": false,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-0.jpg" alt="" data-aos="fade-in" class="img-fluid top" />
+              </div>
+            </div><!-- End gallery item -->
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-1.jpg" alt="" data-aos="fade-in" class="img-fluid" />
+              </div>
+            </div><!-- End gallery item -->
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-2.jpg" alt="" data-aos="fade-in" class="img-fluid" />
+              </div>
+            </div><!-- End gallery item -->
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-3.jpg" alt="" data-aos="fade-in" class="img-fluid bottom" />
+              </div>
+            </div><!-- End gallery item -->
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-4.jpg" alt="" data-aos="fade-in" class="img-fluid bottom" />
+              </div><!-- End gallery item -->
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-6.jpg" alt="" data-aos="fade-in" class="img-fluid bottom" />
+              </div><!-- End gallery item -->
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-item">
+                <img src="./img/bg-7.jpg" alt="" data-aos="fade-in" class="img-fluid" />
+              </div><!-- End gallery item -->
+            </div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-button-next"></div> -->
+
+      </div>
+
+    </section><!-- /gallerys Section -->
+
+  </main>
+
+  <footer id="footer" class="footer footer-about-us dark-background">
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://open.spotify.com/track/1HblvdW8MpYgi7jxiTf2yM?si=391a468e77814b76" target="_blank">
+          <i class="bi bi-spotify"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=xuJwo3w1XSE" target="_blank"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.facebook.com/Losdaners" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/losdaners_oficial/" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="container">
+        <div class="flatlatte">
+          Hecho con café y codigo por
+          <a href="https://flatlatte.com/" target="_blank">Flat Latte</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+    <!-- JS  -->
+    <script src="./js/script.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/aos/aos.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
